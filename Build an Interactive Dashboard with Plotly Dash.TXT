@@ -50,7 +50,6 @@ app.layout = html.Div(children=[
     html.Div(dcc.Graph(id='success-payload-scatter-chart')),
 ])
 
-# --- CALLBACKS (Deben estar pegados al borde izquierdo) ---
 
 # TASK 2: Callback para el gráfico circular
 @app.callback(
